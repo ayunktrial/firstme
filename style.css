@@ -1,0 +1,161 @@
+#grad {
+	background-image: linear-gradient(#c0d6fa, #5a97fa, #5a97fa, #5a97fa, #4f8df0, #2d75eb, #1457c4, #000000);
+	background-repeat: no-repeat;
+}
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: arial;
+    color: #cfe1ff;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #1453b8;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #cfe1ff;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #d3dceb;
+    font-size: 25px;
+    font-family: arial;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+h1 {
+	font-family: century gothic;
+	font-size: 50px;
+	text-align: center;
+	color: #e3eeff;
+}
+
+.par1 {
+	font-size: 25px;
+	font-family: malgun gothic;
+}
+
+.par2 {
+	font-family: arial;
+	font-size: 20px;
+}
+
+.par1, .par2 {
+	color: #c9daf5;
+	text-align: justify;
+	padding: 0px 25px 0px 25px;
+}
+
+b {
+	color: #ffffff;
+}
+
+.login {
+	color: #ffffff;
+	background-color: #6696e3;
+	border-radius: 25px;
+}
+
+.login:hover {
+	background-color: #2a73e8;
+}
+
+label {
+	color: #ffffff;
+	font-family: arial;
+	font-size: 25px;
+	text-align: left;
+}
+
+.pormm {
+	text-align: center;
+}
+
+input {
+	background-color: #86b1f7;
+	font-family: arial;
+	font-size: 20px;
+	border-radius: 20px;
+	color: #87030e;
+}
+
+table {
+	border-spacing: 20px;
+	background-color: #0737a8;
+	border-radius: 30px;
+}
+
+.tbl {
+	background-color: #668fed;
+	border-radius: 30px;
+	font-family: arial;
+	color: #d8dff0;
+	padding: 3px 82px 3px 82px;
+}
+
+.tbl a {
+	font-family: arial;
+	color: #d8dff0;
+}
+
+.tbl:hover {
+	background-color: #2656c7;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    color: white;
+}
